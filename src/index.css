@@ -1,0 +1,76 @@
+/* ── 1. RESET ── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ── 2. CSS CUSTOM PROPERTIES ── */
+:root {
+  --color-bg-hero: #1e1e1a;
+  --color-bg-dev: #f5f2ed;
+  --color-bg-wrangling: #2d3d2a;
+  --color-bg-writing: #3d2820;
+  --color-accent: #C17A4A;
+  --color-text-hero: #f0ebe0;
+  --color-text-dev: #2a2520;
+  --color-text-wrangling: #e8ead4;
+  --color-text-muted-dev: #8a7f72;
+  --color-text-muted-wrangling: #a8b898;
+  --color-card-bg: #ffffff;
+  --color-card-border: #d4c9bc;
+
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+  --spacing-xl: 8rem;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+}
+
+/* ── 3. BASE TYPOGRAPHY ── */
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+p {
+  max-width: 65ch;
+}
+
+/* ── 4. BASE ELEMENTS ── */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+}
