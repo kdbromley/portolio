@@ -65,6 +65,7 @@ img {
 a {
   color: var(--color-accent);
   text-decoration: none;
+  text-transform: lowercase;
 }
 
 a:hover {

@@ -1,0 +1,16 @@
+.navbar {
+    background-color: hsl(from var(--color-bg-hero) h s calc(l - 2));
+    color: var(--color-accent);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: var(--spacing-sm);
+}
+
+.navbar h3 {
+   display: inline; 
+}
+
+.navbar a {
+    margin: auto var(--spacing-sm)
+}
