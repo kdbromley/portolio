@@ -1,0 +1,5 @@
+.projectcard__container { 
+    border: 1px solid var(--color-card-bg);
+    background-color: var(--color-card-bg);
+    color: var(--color-text-dev);
+}

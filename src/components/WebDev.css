@@ -1,0 +1,11 @@
+.webdev {
+    background-color: var(--color-bg-dev);
+    color: var(--color-text-dev);
+    padding: var(--spacing-md);
+}
+
+.webdev__projects-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

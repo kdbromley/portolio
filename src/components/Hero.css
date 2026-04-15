@@ -3,7 +3,7 @@
 .hero {
     background-color: var(--color-bg-hero);
     color: var(--color-text-hero);
-    padding: var(--spacing-lg);
+    padding: var(--spacing-lg) var(--spacing-md);
     font-family: var(--font-sans);
 }
 .hero h2 {
