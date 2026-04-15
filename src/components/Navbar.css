@@ -1,10 +1,20 @@
 .navbar {
-    background-color: hsl(from var(--color-bg-hero) h s calc(l - 2));
     color: var(--color-accent);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: var(--spacing-sm);
+}
+
+/* Dynamic Background Color */
+.navbar {
+  background-color: var(--color-bg-hero);
+}
+
+@supports (color: hsl(from red h s l)) {
+  .navbar {
+    background-color: hsl(from var(--color-bg-hero) h s calc(l - 2));
+  }
 }
 
 .navbar h3 {

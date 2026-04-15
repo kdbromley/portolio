@@ -1,4 +1,4 @@
-import { NavLink, Link } from "react-router-dom"
+import { a, Link } from "react-router-dom"
 import "./Navbar.css"
 
 function Navbar() {
@@ -9,27 +9,18 @@ function Navbar() {
      </div>
 
      <div className="navbar__links">
-      <NavLink
-        to="/#work"
+      <a
+        href="/#work"
         id="navbar__link-work"
-        className={({ isActive }) =>
-          isActive ? "active" : ""
-        }
-      > Work </NavLink>
-      <NavLink
-        to="/#wrangling"
+      > Work </a>
+      <a
+        href="/#wrangling"
         id="navbar__link-wrangling"
-        className={({ isActive }) =>
-          isActive ? "active" : ""
-        }
-      > Wrangling </NavLink>
-      <NavLink
-        to="/#writing"
+        > Wrangling </a>
+      <a
+        href="/#writing"
         id="navbar__link-writing"
-        className={({ isActive }) =>
-          isActive ? "active" : ""
-        }
-      > Writing </NavLink>
+        > Writing </a>
       </div>
     </nav>
   )
