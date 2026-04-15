@@ -1,4 +1,3 @@
-import { a, Link } from "react-router-dom"
 import "./Navbar.css"
 
 function Navbar() {
@@ -10,15 +9,15 @@ function Navbar() {
 
      <div className="navbar__links">
       <a
-        href="/#work"
+        href="#work"
         id="navbar__link-work"
       > Work </a>
       <a
-        href="/#wrangling"
+        href="#wrangling"
         id="navbar__link-wrangling"
         > Wrangling </a>
       <a
-        href="/#writing"
+        href="#writing"
         id="navbar__link-writing"
         > Writing </a>
       </div>
