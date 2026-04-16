@@ -4,4 +4,13 @@
     color: var(--color-text-dev);
     border-radius: var(--radius-lg);
     padding: var(--spacing-md);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.projectcard__link {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
