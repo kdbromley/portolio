@@ -4,6 +4,23 @@
     padding: var(--spacing-md);
 }
 
+.webdev__header { 
+    text-transform: uppercase;
+    font-family: var(--font-serif);
+    font-size: var(--text-base);
+    margin-bottom: var(--spacing-xs);
+}
+
+
+.webdev__projects {
+    padding: var(--spacing-md) 0;
+}
+
+.webdev__projects-header {
+    margin-bottom: var(--spacing-sm);
+    font-size: var(--text-md);
+}
+
 .webdev__projects-list {
     display: flex;
     flex-direction: row;
