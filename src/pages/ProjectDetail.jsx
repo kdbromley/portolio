@@ -11,8 +11,11 @@ function ProjectDetail() {
     return (
       <div className="projectdetail__overlay" onClick={() => navigate(-1)}>
         <div className="projectdetail__modal" onClick={(e) => e.stopPropagation()}>
-          <p>Project not found.</p>
-          <button onClick={() => navigate(-1)}>Go back</button>
+          <p className="projectdetail__error">Project not found.</p>
+          <button 
+            onClick={() => navigate(-1)}
+            className="projectdetail__error-goback"
+            >Go back</button>
         </div>
       </div>
     )
