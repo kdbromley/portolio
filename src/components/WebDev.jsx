@@ -1,6 +1,8 @@
+import SkillsList from "./SkillsList"
 import ProjectCard from "./ProjectCard"
 import { projects } from "../data/projects"
 import "./WebDev.css"
+
 
 function WebDev() {
   return (
@@ -21,6 +23,9 @@ function WebDev() {
             project={project} />
         ))}
         </div>
+      </div>
+      <div className="webdev__skills">
+        <SkillsList />
       </div>
     </section>
   )
