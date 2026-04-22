@@ -1,0 +1,50 @@
+.rolecard {
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.rolecard__title {
+  font-size: var(--text-md);
+  color: var(--color-text-wrangling);
+  margin-bottom: 4px;
+}
+
+.rolecard__employer {
+  display: block;
+  font-size: var(--text-sm);
+  color: var(--color-accent);
+  margin-bottom: 4px;
+}
+
+.rolecard__meta {
+  display: block;
+  font-size: var(--text-sm);
+  color: var(--color-text-muted-wrangling);
+}
+
+.rolecard__responsibilities {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-left: var(--spacing-sm);
+  list-style: disc;
+}
+
+.rolecard__responsibility {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted-wrangling);
+  line-height: 1.6;
+}
+
+.rolecard__note {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted-wrangling);
+  font-style: italic;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: var(--spacing-xs);
+}

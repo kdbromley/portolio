@@ -1,0 +1,86 @@
+.wrangling {
+    background-color: var(--color-bg-wrangling);
+    color: var(--color-text-wrangling);
+    padding: var(--spacing-md);
+      max-width: none;
+  white-space: pre-line;
+}
+
+.wrangling__header { 
+    text-transform: uppercase;
+    font-family: var(--font-serif);
+    font-size: var(--text-base);
+    margin-bottom: var(--spacing-xs);
+}
+
+.wrangling__subheader {
+    margin-bottom: var(--spacing-sm);
+    font-size: var(--text-md);
+}
+
+.wrangling__roles {
+    padding: var(--spacing-md) 0;
+}
+
+.wrangling__roles-header {
+    margin-bottom: var(--spacing-sm);
+    font-size: var(--text-md);
+}
+
+
+.wrangling__roles-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--spacing-sm);
+}
+
+
+.wrangling__narrative {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  max-width: 65ch;
+  margin-bottom: var(--spacing-md);
+}
+
+.wrangling__transferable {
+  margin-top: var(--spacing-md);
+  padding-top: var(--spacing-md);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-style: italic;
+  color: var(--color-text-muted-wrangling);
+  max-width: 65ch;
+}
+
+
+/* Image Strip */
+.wrangling__photos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-sm);
+  margin: var(--spacing-md) 0;
+}
+
+.wrangling__photo {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  filter: brightness(0.9);
+}
+
+
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .wrangling__roles-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrangling__photos {
+    grid-template-columns: 1fr;
+  }
+}
