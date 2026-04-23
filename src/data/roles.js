@@ -1,6 +1,18 @@
 export const roles = [
   {
     id: 1,
+    title: 'Wrangler',
+    employer: 'Saguaro Lake Ranch Stable',
+    years: 'Sep 2024 – Jun 2025',
+    location: 'Mesa, Arizona',
+    responsibilities: [
+      'Prepared 20–45 horses each morning: catching, grooming, saddling',
+      'Led trail rides for 1–8 guests across all experience levels, managing safety for both rider and horse',
+      'Horse care: health assessments, feeding, hoof care, tack maintenance and repair',
+    ],
+    note: null,
+  },{
+    id: 2,
     title: 'Trail Guide',
     employer: 'SoCal Horse Adventures',
     years: 'Sep 2023 – May 2024',
@@ -12,19 +24,6 @@ export const roles = [
       'Handled booking management, trailer towing (4 and 6 horse), and children\'s lessons',
     ],
     note: 'Also worked as Shopify Developer for SoCal Horse Adventures.',
-  },
-  {
-    id: 2,
-    title: 'Wrangler',
-    employer: 'Saguaro Lake Ranch Stable',
-    years: 'Sep 2024 – Jun 2025',
-    location: 'Mesa, Arizona',
-    responsibilities: [
-      'Prepared 20–45 horses each morning: catching, grooming, saddling',
-      'Led trail rides for 1–8 guests across all experience levels, managing safety for both rider and horse',
-      'Horse care: health assessments, feeding, hoof care, tack maintenance and repair',
-    ],
-    note: null,
   }
 ]
 

@@ -6,7 +6,7 @@ export const projects = [
     role: 'UI/UX, React, WordPress',
     employer: 'Plucky',
     years: '2021–2023',
-    stack: ['React', 'WordPress', 'JavaScript', 'CSS', 'Git'],
+    stack: ['React', 'WordPress', 'JavaScript', 'HTML/CSS', 'PHP'],
     description: `Aspect is a Hollywood trailer house behind campaigns for major film, series, and game releases — and a long-time Plucky client. Plucky had built and maintained their original WordPress site, so when Aspect undertook a modernizing rebrand, they brought us in to execute the redesign alongside a performance overhaul for their media-heavy portfolio.
 I was tasked with the React integration: building a custom theme architecture that brought React component loading into the existing WordPress backend, making the UI significantly faster and smoother for a site that lives and dies by its visual content. I implemented the new responsive design to preserve Aspect's visual identity across every device, and used JavaScript to guide how users move through the portfolio. My supervisor oversaw the project and handled appearance adjustments; the theme architecture and frontend implementation were mine.`,
     link: 'https://www.teamaspect.com',
@@ -20,7 +20,7 @@ I was tasked with the React integration: building a custom theme architecture th
     role: 'UI/UX, WordPress',
     employer: 'Plucky',
     years: '2022–2023',
-    stack: ['WordPress', 'Elementor', 'PHP', 'JavaScript', 'HTML/CSS', 'Git'],
+    stack: ['WordPress', 'Elementor', 'PHP', 'JavaScript', 'HTML/CSS'],
     description: `Ground-up WordPress build for a high-end birthday playset rental service in Los Angeles. The brief was a brand that felt playful but upscale, and a customer experience that was genuinely intuitive — reservation flow, checkout, and automated payments that reduced manual workload on the business side. This was a full-service engagement: design, development, and the functional build.`,
     link: 'https://www.softplayla.com/',
     linkLabel: 'softplayla.com',
@@ -33,7 +33,7 @@ I was tasked with the React integration: building a custom theme architecture th
     role: 'Database/UI',
     employer: 'Plucky/Gershwin Consulting',
     years: '2021–2023',
-    stack: ['FileMaker Pro', 'scripting', 'database architecture', 'UI design'],
+    stack: ['FileMaker Pro', 'Relational Databases', 'UI design'],
     description: `Through Plucky and in collaboration with Phil Gershwin of Gershwin Consulting, I built, maintained, and updated FileMaker database systems for entertainment industry clients — trailer houses and production companies whose work included projects for Disney, Warner Bros., Marvel, and others.
 The work covered the full stack of FileMaker development: designing and implementing database architecture, writing and automating scripts, and building the client-facing UI. A significant focus was data integrity and access control — these systems tracked production timelines, freelancer and employee time, and sensitive project details for high-profile titles. Getting user permissions wrong, losing version control, or allowing unauthorized access wasn't just inconvenient; it had real professional consequences for the clients.
 The sensitive nature of the work also meant discretion was built into everything I did — from how systems were structured to how I talked about the work externally.`,
@@ -48,7 +48,7 @@ The sensitive nature of the work also meant discretion was built into everything
     role: 'UI/UX, Shopify',
     employer: 'Freelance',
     years: '2025',
-    stack: ['Shopify', 'Liquid', 'JavaScript'],
+    stack: ['Shopify', 'Liquid'],
     description: `Shopify development and catalog management for a vintage toy and collectibles seller with a distinctive brand identity. Work included storefront development and maintaining a large, actively updated product catalog.`,
     link: 'https://www.smilesfromthepast.com/',
     linkLabel: 'smilesfromthepast.com',
