@@ -1,6 +1,8 @@
 import { useParams, useNavigate } from "react-router-dom"
 import { projects } from "../data/projects"
+import { createPortal } from "react-dom"
 import "./ProjectDetail.css"
+
 
 function ProjectDetail() {
   const { slug } = useParams()
@@ -21,7 +23,7 @@ function ProjectDetail() {
     )
   }
 
-  return (
+  return createPortal(
     <div className="projectdetail__overlay" onClick={() => navigate(-1)}>
       <div className="projectdetail__modal" onClick={(e) => e.stopPropagation()}>
         
@@ -50,7 +52,8 @@ function ProjectDetail() {
         </div>
 
       </div>
-    </div>
+    </div>,
+    document.body
   )
 }
 
