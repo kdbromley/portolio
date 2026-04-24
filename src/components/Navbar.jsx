@@ -9,8 +9,8 @@ function Navbar() {
 
      <div className="navbar__links">
       <a
-        href="#work"
-        id="navbar__link-work"
+        href="#webdev"
+        id="navbar__link-webdev"
       > Work </a>
       <a
         href="#wrangling"

@@ -6,7 +6,7 @@ import "./WebDev.css"
 
 function WebDev() {
   return (
-    <section className="webdev" id="work">
+    <section className="webdev" id="webdev">
       <h3 className="webdev__header">Web Development</h3>    
       <p className="webdev__intro">
         My primary work experience comes from earning a Certificate in Software Engineering from Thinkful, and my time as a Junior Web Developer at Plucky, from 2021-2023. That role focused on front-end development in Wordpress and development and database management in Claris Filemaker. 
