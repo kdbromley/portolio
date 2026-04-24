@@ -14,14 +14,32 @@
     margin: var(--spacing-xs) 0;
 }
 
-.bio {
+.hero__bio {
     margin-top: var(--spacing-sm);
     margin-bottom: var(--spacing-md);
 }
 
-.cta {
+.hero__cta {
     border: 1px solid var(--color-accent);
     border-radius: var(--radius-md);
     padding: var(--spacing-xs);
     margin-right: var(--spacing-sm);
+}
+
+.hero__social {
+  font-size: var(--text-sm);
+  color: var(--color-accent);
+  text-transform: none;
+  padding: var(--spacing-xs);
+  margin-right: var(--spacing-xs);
+}
+
+
+/* icon inside social links */
+.hero__icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    vertical-align: middle;
+    fill: currentColor;
+    display: inline-block;
 }

@@ -2,10 +2,15 @@ export const writing = [
     {
         title: "I Hit the Devil Going 45",
         content: `I hit the devil going 45 last night. I shouldn’t have been going that fast, not on that road, not at night, not after those three beers I had at the party. I tried to call my mom on my way, hoping maybe talking would make me feel better or at least assure the fact I would make it home. She didn’t answer, which was unusual considering it was only 10pm. I put my phone face down on the padded top of the center console and brought my eyes back to the road. 
+        
         I didn’t take my eyes off the blacktop flowing constantly toward me. My headlights washed over it, highlighting the bright yellow dividing lines as they streamed one by one under my car. Dark surrounds me. Nothing to see.
-	    He appeared in the road. A veritable apparition. He wasn’t standing there, waiting until my headlights crawled over him, gross yellow glow chasing the darkness away and illuminating his weird, fleshy, pale body. He didn’t walk or run out of the forest. One moment: dark road, rolling gently and comfortable into the glow of my headlights before disappearing under my hood. Then: he’s there, haloed with shadow from the angled beams of those headlights. 
+	    
+        He appeared in the road. A veritable apparition. He wasn’t standing there, waiting until my headlights crawled over him, gross yellow glow chasing the darkness away and illuminating his weird, fleshy, pale body. He didn’t walk or run out of the forest. One moment: dark road, rolling gently and comfortable into the glow of my headlights before disappearing under my hood. Then: he’s there, haloed with shadow from the angled beams of those headlights. 
+        
         As it was, I could have better avoided a tree had I swerved into one. But he was a mere few yards from my car, cold and stoic and still and blindingly pale. Not white, or glowing, a color that would suggest purity or divinity or a person who had never really seen sun. He was a gross, sick, empty pale, a figure from which color leached, in which life and light ceased to exist.
+        
         The wet crunch his body made against the front of my car certainly existed though. I heard it through my bones. There are sounds that one hears, maybe in the night or when distracted, that are impossible to be sure are real at all. The sound of his body, squelch-crunching as it hit my grill, was the opposite: undeniable, existing with a violence and fervor. 
+        
         Plus, I watched him vault over my car, rolling inelegantly off the trunk and onto the dry asphalt behind.`
     },
 ]
