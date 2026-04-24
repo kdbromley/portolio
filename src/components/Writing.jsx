@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import "./Writing.css"
+import "./css/Writing.css"
 
 function Writing() {
   return (

@@ -1,4 +1,4 @@
-import "./RoleCard.css"
+import "./css/RoleCard.css"
 
 function RoleCard({ role }) {
   return (

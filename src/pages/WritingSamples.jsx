@@ -1,6 +1,6 @@
 import { useParams, useNavigate } from "react-router-dom"
 import { writing } from "../data/writing"
-import "./WritingSamples.css"
+import "./css/WritingSamples.css"
 import { createPortal } from "react-dom"
 
 function WritingSamples() {

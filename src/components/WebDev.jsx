@@ -1,7 +1,7 @@
 import SkillsList from "./SkillsList"
 import ProjectCard from "./ProjectCard"
 import { projects } from "../data/projects"
-import "./WebDev.css"
+import "./css/WebDev.css"
 
 
 function WebDev() {

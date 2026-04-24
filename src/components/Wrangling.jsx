@@ -3,7 +3,7 @@ import wyoming from "../assets/images/wyoming-tall.jpeg"
 import solo from "../assets/images/saguaro_solo.jpeg"
 import river from "../assets/images/saguaro_water.jpg"
 import RoleCard from "./RoleCard"
-import "./Wrangling.css"
+import "./css/Wrangling.css"
 
 function Wrangling() {
   return (

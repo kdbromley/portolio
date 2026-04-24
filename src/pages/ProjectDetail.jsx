@@ -1,7 +1,7 @@
 import { useParams, useNavigate } from "react-router-dom"
 import { projects } from "../data/projects"
 import { createPortal } from "react-dom"
-import "./ProjectDetail.css"
+import "./css/ProjectDetail.css"
 
 
 function ProjectDetail() {
